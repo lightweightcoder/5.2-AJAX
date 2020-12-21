@@ -1,0 +1,22 @@
+body {
+  background-color: beige;
+}
+
+.modal {
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  display: none;
+}
+
+.show-modal {
+  display: block;
+  position: fixed;
+  top: 20px;
+  width: 60%;
+  background-color: white;
+}
+
+.close:hover {
+  cursor: pointer;
+}
